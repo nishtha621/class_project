@@ -1,0 +1,45 @@
+.app {
+  max-width: 500px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+  color: rgb(22, 10, 10);
+}
+.body{
+  display: flex;
+  justify-content: center;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  padding: 0.6em;
+  font-size: 1em;
+  width: 70%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.input-section button {
+  padding: 0.6em 1em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  margin: 8px 0;
+  background: #a49a9a;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: left;
+}
